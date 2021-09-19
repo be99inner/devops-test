@@ -28,3 +28,12 @@ Project root has [`index.js`](/index.js) file. It simulates a simple app that ru
 Email us your Github repo. We expect meaningful git commits, ideally one commit per exercise with commit messages clearly communicating the intent.
 
 In case you deploy it to any cloud platforms, please send us instructions & relevant IAM user credentials.
+
+## Build Application
+
+Build application stacks with docker-compose.
+
+```bash
+docker-compose up --build -d
+docker-compose logs -f
+```
